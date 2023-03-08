@@ -1,6 +1,6 @@
 Here is a coding challenge that I found online that was interesting to do to practice my data structures and algorithm skills.
 
-## TASK
+## Task
 
 ### Write a Java program to parse a given CSV file and evaluate each cell by these rules
 1. Each cell is an expression in postfix notation. Please refer to the wikipedia page for a
@@ -13,19 +13,12 @@ The output will be a CSV file of the same dimensions, where each cell is evaluat
 value. If any cell is an invalid expression, then for that cell only print #ERR.
 For example, the following CSV input:
 
-10, 1 3 +, 2 3 -
-
-b1 b2 *, a1, b1 a2 / c1 +
-
-+, 1 2 3, c3
+![image](https://user-images.githubusercontent.com/66478998/223704203-148a6509-5efd-4596-b9d4-40eabb41ebe5.png)
 
 Might output something like this:
 
-10,4,-1
+![image](https://user-images.githubusercontent.com/66478998/223704245-44521808-275a-4c06-a588-153d5eb52c30.png)
 
-40,10,-0.9
-
-#ERR,#ERR,#ERR
 
 ## Code Structure
 ### Steps 
