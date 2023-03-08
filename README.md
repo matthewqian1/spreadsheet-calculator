@@ -12,12 +12,19 @@ letters refer to columns, numbers to rows).
 The output will be a CSV file of the same dimensions, where each cell is evaluated to its final
 value. If any cell is an invalid expression, then for that cell only print #ERR.
 For example, the following CSV input:
+
 10, 1 3 +, 2 3 -
+
 b1 b2 *, a1, b1 a2 / c1 +
+
 +, 1 2 3, c3
+
 Might output something like this:
+
 10,4,-1
+
 40,10,-0.9
+
 #ERR,#ERR,#ERR
 
 ## Code Structure
