@@ -3,8 +3,7 @@ Here is a coding challenge that I found online that was interesting to do to pra
 ## Task
 
 ### Write a Java program to parse a given CSV file and evaluate each cell by these rules
-1. Each cell is an expression in postfix notation. Please refer to the wikipedia page for a
-full description.
+1. Each cell is an expression in postfix notation. 
 2. Each number or operation will always be separated by one or more spaces.
 3. A cell can refer to another cell, via the LETTER NUMBER notation (A2, B4, etc -
 letters refer to columns, numbers to rows).
